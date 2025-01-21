@@ -31,22 +31,30 @@ The project is divided into several steps, including setting up the database, lo
    - Stacked the data from all four months into single files for each entity.
    - Loaded the data into the respective tables in the PostgreSQL database.
 
-### 3. **Data Analysis**
-   - **Question 1:** Retrieved the submission ID, company name, submission date, and full mailing address for all submissions made by companies in the “Healthcare” sector in March 2024.
-     - **Insight:** Identified 20 companies in the healthcare sector that submitted financial statements in March 2024. The companies include INVACARE HOLDINGS CORP, U S PHYSICAL THERAPY INC, and BIODESIX INC, among others.
+### 3. **Data Analysis - Key Takeaways and Conclusions**
 
-   - **Question 2:** Calculated and displayed the month, the total number of submissions, and the average number of submissions for the first four months of 2024.
-     - **Insight:** The total number of submissions varied each month, with January having 5,904 submissions, February having 9,400, March having 9,032, and April having 9,634. The average number of submissions across these months was 8,492.5.
+1. **Healthcare Sector Analysis (Analysis 1):**
+   - **Key Takeaway:** Companies in the healthcare sector, such as INVACARE HOLDINGS CORP, U S PHYSICAL THERAPY INC, and BIODESIX INC, actively submitted financial statements in March 2024. This highlights the sector's compliance with SEC reporting requirements and provides insights into the financial health of these companies.
+   - **Conclusion:** The healthcare sector remains a significant contributor to financial filings, with consistent submissions reflecting the industry's regulatory adherence and transparency.
 
-   - **Question 3:** Retrieved the list of all tag IDs, tag names, and the total number of companies that used each tag for all tags used in submissions by companies in the “Finance” sector in 2024.
-     - **Insight:** The most commonly used tags in the finance sector include "Assets," "Entity Common Stock, Shares Outstanding," and "Liabilities," with 1,476, 1,456, and 1,443 companies using these tags, respectively.
+2. **Submission Trends (Analysis 2):**
+   - **Key Takeaway:** The number of submissions fluctuated monthly, with January (5,904), February (9,400), March (9,032), and April (9,634) showing varying levels of activity. The average number of submissions across these months was 8,492.5.
+   - **Conclusion:** The data indicates a peak in submissions during February, possibly due to end-of-year financial reporting deadlines. Understanding these trends can help predict future submission volumes and optimize resource allocation for data processing.
 
-   - **Question 4:** Retrieved the top 5 companies with the highest total assets in 2024, including their company name, sector, and the number of unique tags used in their submissions.
-     - **Insight:** The top company by total assets is BANK OF CHILE, with total assets amounting to 16,048,901,542,880,200,602.86. Other top companies include POSCO HOLDINGS INC., BANCO SANTANDER CHILE, KB FINANCIAL GROUP INC., and SHINHAN FINANCIAL GROUP CO LTD.
+3. **Finance Sector Tag Usage (Analysis 3):**
+   - **Key Takeaway:** The most frequently used tags in the finance sector are "Assets," "Entity Common Stock, Shares Outstanding," and "Liabilities," with 1,476, 1,456, and 1,443 companies using these tags, respectively.
+   - **Conclusion:** These tags are critical for financial reporting in the finance sector, reflecting the importance of asset management, equity tracking, and liability reporting. Companies in this sector prioritize these metrics to maintain compliance and transparency.
+
+4. **Top Companies by Total Assets (Analysis 4):**
+   - **Key Takeaway:** BANK OF CHILE leads with the highest total assets (16,048,901,542,880,200,602.86), followed by POSCO HOLDINGS INC., BANCO SANTANDER CHILE, KB FINANCIAL GROUP INC., and SHINHAN FINANCIAL GROUP CO LTD. These companies also utilize a high number of unique tags in their submissions.
+   - **Conclusion:** The dominance of financial institutions in the top assets list underscores the sector's significant economic impact. The use of diverse tags indicates comprehensive financial reporting practices, which are essential for stakeholders and regulatory bodies.
+
+### Overall Conclusion:
+This analysis provides valuable insights into financial reporting trends across key sectors, such as healthcare and finance. The findings highlight the importance of regulatory compliance, the prevalence of specific financial metrics, and the economic significance of top-performing companies. These insights can guide stakeholders in making informed decisions and understanding sector-specific financial behaviors.
 
 ## Repository Structure
-- **Notebooks:** Contains the Jupyter notebook (`Final_Asgn2_G6.ipynb`) with the complete code and analysis.
-- **Data:** Includes the raw data files downloaded from the SEC website and the processed `.csv` files.
+- **Notebooks:** Contains the Jupyter notebook with the complete code and analysis.
+- **Data:** The dataset can be downloaded directly from the SEC Website. 
 - **README.md:** This file, providing an overview of the project and its findings.
 
 ## How to Run the Project
