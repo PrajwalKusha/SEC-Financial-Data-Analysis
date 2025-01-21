@@ -4,7 +4,7 @@ This project involves analyzing financial statement data obtained from the U.S. 
 
 ## Dataset Source
 The dataset was officially obtained from the SEC website. You can find more details and download the dataset from the following link:
-[SEC Financial Statement Data Sets](https://www.sec.gov/data-research/sec-markets-data/financial-statement-data-sets)
+[SEC Financial Statement Data Sets]([https://www.sec.gov/data-research/sec-markets-data/financial-statement-data-sets](https://www.sec.gov/data-research/sec-markets-data/financial-statement-notes-data-sets))
 
 ## Technologies Used
 - **AWS (Amazon Web Services):** The project was hosted on AWS, providing a scalable and reliable cloud infrastructure.
