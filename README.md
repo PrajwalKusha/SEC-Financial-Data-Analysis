@@ -50,9 +50,9 @@ The project is divided into several steps, including setting up the database, lo
 - **README.md:** This file, providing an overview of the project and its findings.
 
 ## How to Run the Project
-1. **Clone the Repository:**
-2. **Set Up the Environment:**
-3. **Run the Jupyter Notebook:**
+1. **Clone the Repository**
+2. **Set Up the Environment**
+3. **Run the Jupyter Notebook**
 
 ## Conclusion
 This project provides a comprehensive analysis of financial statement data from the SEC, focusing on specific sectors and financial metrics. The insights gained from this analysis can be valuable for understanding trends and patterns in financial reporting.
