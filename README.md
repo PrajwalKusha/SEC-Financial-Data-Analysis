@@ -66,7 +66,3 @@ This analysis provides valuable insights into financial reporting trends across 
 This project provides a comprehensive analysis of financial statement data from the SEC, focusing on specific sectors and financial metrics. The insights gained from this analysis can be valuable for understanding trends and patterns in financial reporting.
 
 For any questions or further information, please feel free to reach out.
-
----
-
-**Note:** Ensure that you have the necessary permissions and access to the SEC dataset before using it for analysis.
